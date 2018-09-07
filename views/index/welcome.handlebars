@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+</head>
+<body>
+	{{#if user}}
+      <h1>WELCOME<h1>
+    <p> welcome to diary<p>
+	{{else}}
+    <h1>WELCOME<h1>
+    <p> welcome to diary<p>
+    <a class="btn red darken-1" href="/auth/google"><i class="fa fa-google left"></i> login with google</a>
+    {{/if}}
+
+
+      <style type="text/css">
+	  	h1{font-family: 'Indie Flower', cursive;}
+	  	h1{
+	  		font-size: 100px;
+	  	  }
+	  	  p{
+	  	  	font-size: 50px;
+	  	  }
+	body{
+		background-image: "diary.jpeg";
+	}
+	  </style>
+
+
+</body>
+</html>
